@@ -1,0 +1,5 @@
+{
+  "_comment": "Idea2App skill 市场清单。name -> { source, desc };source 是本地目录或 git URL。/install-skill <name> 按 name 查这里。复制本文件为 market.json 后用。",
+  "prd": { "source": "https://github.com/example/prd-skill", "desc": "写产品需求文档(PRD)的方法" },
+  "spec": { "source": "D:\\path\\to\\spec-skill", "desc": "写技术规格(SPEC)的方法" }
+}

@@ -1,0 +1,1 @@
+"""Idea2App web 后端:纯 stdlib 的 HTTP + SSE,零第三方 web 依赖。"""

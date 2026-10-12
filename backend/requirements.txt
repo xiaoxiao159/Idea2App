@@ -1,0 +1,6 @@
+# Idea2App web 后端依赖(FastAPI + uvicorn)。
+# uvicorn[standard] 自带 websockets,是 FastAPI WebSocket 的运行时支撑。
+# 安装: pip install -r backend/requirements.txt
+fastapi>=0.110
+uvicorn[standard]>=0.29
+httpx>=0.27          # 仅 test/smoke_server.py 用(TestClient 驱动 WebSocket)

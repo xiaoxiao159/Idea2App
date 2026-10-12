@@ -1,0 +1,15 @@
+# 密钥与环境配置：永远不要提交 .env
+.env
+
+# Python 虚拟环境
+.venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+.claude/
+
+learn/
+
+logs/
